@@ -18,7 +18,7 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-brand">
-        <img src="/logo.png" alt="Votanabe" style={{ height: 44, filter: 'brightness(0) invert(1)' }} />
+        <img src="/logo.png" alt="Votanabe" style={{ height: 44, filter: 'invert(1)', mixBlendMode: 'screen' }} />
       </div>
 
       <div className="sidebar-section">Cliente</div>

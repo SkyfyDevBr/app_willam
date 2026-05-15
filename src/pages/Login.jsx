@@ -16,7 +16,7 @@ export default function Login() {
       <aside className="login-aside">
         <div style={{ position: 'relative' }}>
           <div>
-            <img src="/logo.png" alt="Votanabe" style={{ height: 52, filter: 'brightness(0) invert(1)' }} />
+            <img src="/logo.png" alt="Votanabe" style={{ height: 52, filter: 'invert(1)', mixBlendMode: 'screen' }} />
           </div>
           <h1 className="login-hero-title">
             Cimento direto da<br/>
