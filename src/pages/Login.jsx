@@ -15,12 +15,8 @@ export default function Login() {
     <div className="login-shell">
       <aside className="login-aside">
         <div style={{ position: 'relative' }}>
-          <div className="flex center gap-3">
-            <div className="brand-mark" style={{ width: 44, height: 44 }}>V</div>
-            <div>
-              <div className="brand-name" style={{ fontSize: 18 }}>Votanabe</div>
-              <div className="brand-sub">Clube Votorantim</div>
-            </div>
+          <div>
+            <img src="/logo.png" alt="Votanabe" style={{ height: 52, filter: 'brightness(0) invert(1)' }} />
           </div>
           <h1 className="login-hero-title">
             Cimento direto da<br/>

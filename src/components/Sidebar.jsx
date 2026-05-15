@@ -18,11 +18,7 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <div className="sidebar-brand">
-        <div className="brand-mark">V</div>
-        <div>
-          <div className="brand-name">Votanabe</div>
-          <div className="brand-sub">Clube Votorantim</div>
-        </div>
+        <img src="/logo.png" alt="Votanabe" style={{ height: 44, filter: 'brightness(0) invert(1)' }} />
       </div>
 
       <div className="sidebar-section">Cliente</div>
